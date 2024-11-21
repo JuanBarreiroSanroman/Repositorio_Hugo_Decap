@@ -11,13 +11,14 @@ media_folder: "static/images/uploads" # Carpeta donde se guardarán las imágene
 public_folder: "/images/uploads"
 
 collections:
+
+
   - name: "textos"
     label: "Textos"
-    folder: "themes/ananke/data"
     files:
-      - label: "Textos YAML"
+      - label: "Texto Prueba Tema1"
         name: "textos"
-        file: "textos.yml"
+        file: "themes/ananke/data/textos.yml"
         fields:
           - { label: "Enable", name: "enable", widget: "boolean" }
           - { label: "Texto", name: "texto", widget: "string" }
